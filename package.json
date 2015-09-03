@@ -1,0 +1,26 @@
+{
+  "name": "locateme",
+  "version": "0.0.1",
+  "description": "Determine a computer's location using Google's WPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WPS",
+    "location",
+    "whereami"
+  ],
+  "author": "Sanchit Gera",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.10.1",
+    "colors": "^1.1.2",
+    "commander": "^2.8.1",
+    "geocoder": "^0.2.2",
+    "node-wifiscanner": "^0.2.1"
+  },
+  "bin": {
+    "locateme": "index.js"
+  }
+}
