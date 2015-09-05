@@ -5,13 +5,16 @@ var colors = require('colors');
 
 program
   .version('0.0.1')
-  .usage('<keywords>');
+  .option('-v, --verbose', 'Verbose')
+  .parse(process.argv);
 
 var locateme = require('./lib/locateme');
 
+if(program.verbose) {
+}
 console.log('Initiating request...'.green)
-locateme(function(err, location){
+locateme(function(err, location, accuracy){
   // console.log(err, location);
   console.log('Found you!'.green);
-  console.log('You are located at: ' + location.results[0].formatted_address); 
+  console.log('You are located within a ' + accuracy + 'm radius from ' + location.results[0].formatted_address);
 });
