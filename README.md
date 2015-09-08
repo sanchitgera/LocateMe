@@ -3,7 +3,7 @@
 
 ## Getting it 
 ```
-npm install -g git+ssh://git@github.com/sanchitgera/LocateMe.git 
+sudo npm install -g git+ssh://git@github.com/sanchitgera/LocateMe.git 
 ```
 
 ## Usage 
