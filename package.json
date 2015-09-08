@@ -1,6 +1,6 @@
 {
   "name": "locateme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Determine a computer's location using Google's WPS",
   "main": "index.js",
   "keywords": [
