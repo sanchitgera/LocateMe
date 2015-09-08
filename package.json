@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Determine a computer's location using Google's WPS",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "WPS",
     "location",
@@ -14,6 +11,8 @@
   "author": "Sanchit Gera",
   "license": "MIT",
   "dependencies": {
+    "change-case": "^2.3.0",
+    "cli-table": "^0.3.1",
     "color": "^0.10.1",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
