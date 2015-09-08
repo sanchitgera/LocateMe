@@ -1,0 +1,27 @@
+# LocateMe
+> Determine a computer's location using WPS and reverse geocoding
+
+## Getting it 
+```
+npm install git@github.com:sanchitgera/LocateMe -g 
+```
+
+## Usage 
+```bash
+$ locateme
+Initiating request...
+Scanning wifi ports around you...
+Fetching geocoordinates...
+Looking up your coordinates...
+Found you!
+You are located within a 28m radius from 1234 Somewhereton, Sometown, ON A1B 2C3, Canada
+```
+
+For a more detailed description about the location and the WiFi networks around you, 
+```
+$ locateme --verbose
+```
+
+
+
+
