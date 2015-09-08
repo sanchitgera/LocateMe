@@ -22,6 +22,11 @@ For a more detailed description about the location and the WiFi networks around 
 $ locateme --verbose
 ```
 
+License
+
+Copyright (c) 2015, Sanchit Gera. (MIT License)
+
+See LICENSE for more info.
 
 
 
