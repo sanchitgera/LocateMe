@@ -22,7 +22,7 @@ For a more detailed description about the location and the WiFi networks around 
 $ locateme --verbose
 ```
 
-License
+## License
 
 Copyright (c) 2015, Sanchit Gera. (MIT License)
 
